@@ -1,0 +1,48 @@
+.card {
+  height: 100px;
+  width: 50%;
+
+  background: rgb(17, 16, 16);
+  color: #FFF;
+
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.card strong {
+  font-size: 18px;
+  background: rgb(17, 16, 16);
+  margin-inline-end: auto;
+}
+
+.card small {
+  font-size: 18px;
+  background: rgb(17, 16, 16);
+}
+
+.card button {
+  width: auto;
+  margin: 0;
+  padding: 7px;
+  line-height: 0;
+  border-radius: 3px;
+}
+
+.card button:hover {
+  color: rgb(189, 13, 13);
+}
+
+.card button svg{
+  background: transparent;
+}
+
+
+
+
+
+
